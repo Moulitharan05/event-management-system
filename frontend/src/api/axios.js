@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 // Set VITE_API_URL in a .env file at the frontend root when deploying.
-const baseURL = import.meta.env.VITE_API_URL || 'http://localhost:8080/apihttps://event-management-system-backend-lwsw.onrender.com/api'
+const baseURL = import.meta.env.VITE_API_URL || 'https://event-management-system-backend-lwsw.onrender.com/api'
 
 const api = axios.create({ baseURL })
 
